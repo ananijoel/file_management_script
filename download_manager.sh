@@ -3,6 +3,7 @@
 # Création des répertoires si nécessaire
 mkdir -p /home/anatide/Images /home/anatide/Vidéos /home/anatide/Musique /home/anatide/Documents /home/anatide/Compressed /home/anatide/Installers
 
+cd /home/anatide/Téléchargements
 # Déplacement des fichiers par type
 mv --backup=numbered *.{png,jpg,jpeg,bmp,gif,tiff,tif,svg,webp,ico,psd,xcf,raw,heif,heic,jp2,jpx,dds,tga,exr,pbm,pgm,ppm,hdr,sgi} /home/anatide/Images 2>/dev/null
 mv --backup=numbered *.{mp4,avi,mkv,mov,flv,wmv,webm,mpeg,mpg,3gp,m4v,ts,ogv} /home/anatide/Vidéos 2>/dev/null
